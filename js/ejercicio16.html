@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio16</title>
+</head>
+<body>
+    <!--  Escribir una función llamada sumarRango que reciba dos argumentos numéricos
+enteros: número inicial y número final. La función debe retornar la suma de los números
+en ese rango (incluyéndolos).
+El número inicial debe ser menor o igual que el número final. -->
+    <script>    
+    function sumarRango(numInicial, numFinal) {
+  if (numInicial > numFinal) {
+    return "El número inicial debe ser menor o igual que el número final.";
+  }
+
+  let suma = 0;
+
+  for (let i = numInicial; i <= numFinal; i++) {
+    suma += i;
+  }
+
+  return suma;
+}
+
+// promt 
+let numeroInicial = Number(prompt("ingresa el numero inical:"));
+let numeroFinal = Number(prompt("ingresa el numero finall:"));
+
+let resultado = sumarRango(numeroInicial, numeroFinal);
+alert("La suma del rango es: " + resultado);
+
+    </script>
+</body>
+</html>

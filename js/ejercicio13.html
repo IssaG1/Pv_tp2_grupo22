@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio13</title>
+</head>
+<body>
+    <!-- Escribir una función llamada mostrarArreglo que reciba un arreglo numérico como
+    parámetro e imprima cada elemento en una línea a parte -->
+    <script>
+        let numeros = [];
+
+for (let i = 0; i < 5; i++) {
+  let num = prompt("Ingresá un número:");
+  numeros.push(Number(num));   /* push es para agregar un numero al numero en el arreglo y no remplazar, Number convierte texto a numero */
+}
+
+function mostrarArreglo(arreglo) {
+  for (let i = 0; i < arreglo.length; i++) {
+    alert(arreglo[i]);
+  }
+}
+
+mostrarArreglo(numeros);
+
+    </script>
+
+</body>
+</html>
