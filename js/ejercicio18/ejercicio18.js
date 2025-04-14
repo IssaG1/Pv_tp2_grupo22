@@ -1,7 +1,7 @@
 import { cambiarTexto } from "./funciones.js";
 
-const parrafo = document.getElementById("miParrafo");
-const boton = document.getElementById("cambiarTexto");
+let parrafo = document.getElementById("miParrafo");
+let boton = document.getElementById("cambiarTexto");
 
 boton.addEventListener("click", () => {
   cambiarTexto(parrafo);
