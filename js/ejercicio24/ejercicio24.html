@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 24</title>
+</head>
+<style>
+    body {
+        background-color: white;
+        color: black;
+        transition: background-color 0.5s, color 0.5s;
+    }
+    .modo-oscuro {
+        background-color: black;
+        color: white;
+    }
+
+    button{
+        background-color: darkgrey;
+        border: none;
+        padding: 15px 32px;
+        border-radius: 2rem;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.5s, color 0.5s;
+
+    }
+    button:hover{
+        background-color: grey;
+    }
+</style>
+<body>
+    <h1 style="text-align: center;">Ejercicio 24</h1>
+    <div style="display: grid;
+    place-items: center;
+    height: 100vh;
+    ">
+        <button id="oscuro">
+            Modo Oscuro
+        </button>
+    </div>
+
+    <script type="module" src="/JS/ejercicio24.js"></script>
+</body>
+</html>
