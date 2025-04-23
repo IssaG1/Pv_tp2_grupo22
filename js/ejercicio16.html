@@ -11,7 +11,7 @@ enteros: número inicial y número final. La función debe retornar la suma de l
 en ese rango (incluyéndolos).
 El número inicial debe ser menor o igual que el número final. -->
     <script>    
-    function sumarRango(numInicial, numFinal) {
+ const sumarRango = (numInicial, numFinal) => {
   if (numInicial > numFinal) {
     return "El número inicial debe ser menor o igual que el número final.";
   }
@@ -23,7 +23,7 @@ El número inicial debe ser menor o igual que el número final. -->
   }
 
   return suma;
-}
+};
 
 // promt 
 let numeroInicial = Number(prompt("ingresa el numero inical:"));
