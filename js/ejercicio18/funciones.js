@@ -1,4 +1,5 @@
-export function cambiarTexto(parrafo) {
-    parrafo.textContent = "Aguante boookaaa";
-  }
+export const cambiarTexto = (parrafo) => {
+  parrafo.textContent = "Aguante boookaaa";
+};
+
   
