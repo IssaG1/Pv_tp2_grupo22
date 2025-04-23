@@ -14,11 +14,11 @@ nuevo arreglo donde cada número esté multiplicado por dos (2). -->
 let numeros = [];
 
 for (let i = 0; i < 5; i++) {
-  let num = prompt("Ingresa un numero perrito:");
+  let num = prompt("Ingresa un numero:");
   numeros.push(Number(num));
 }
 
-function duplicar(arreglo) {
+const duplicar = (arreglo) => {
   let nuevoArreglo = [];
 
   for (let i = 0; i < arreglo.length; i++) {
@@ -26,7 +26,7 @@ function duplicar(arreglo) {
   }
 
   return nuevoArreglo;
-}
+};
 
 let duplicados = duplicar(numeros);
 
