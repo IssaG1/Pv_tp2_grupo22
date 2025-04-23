@@ -16,11 +16,11 @@ for (let i = 0; i < 5; i++) {
   numeros.push(Number(num));   /* push es para agregar un numero al numero en el arreglo y no remplazar, Number convierte texto a numero */
 }
 
-function mostrarArreglo(arreglo) {
+const mostrarArreglo = (arreglo) => {
   for (let i = 0; i < arreglo.length; i++) {
     alert(arreglo[i]);
   }
-}
+};
 
 mostrarArreglo(numeros);
 
