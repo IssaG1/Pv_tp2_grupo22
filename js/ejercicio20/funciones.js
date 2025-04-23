@@ -7,14 +7,14 @@ export let paisesYCapitales = {
     Perú: "Lima"
   };
   
-    export function llenarSelect(selectElement, opciones) {
-
-        selectElement.innerHTML = "";
-      
-        for (let opcion of opciones) {
-          let option = document.createElement("option");
-          option.value = opcion;
-          option.textContent = opcion;
-          selectElement.appendChild(option);
-        }
-      }
+  export const llenarSelect = (selectElement, opciones) => {
+    selectElement.innerHTML = "";
+  
+    opciones.forEach(opcion => {
+      let option = document.createElement("option");
+      option.value = opcion;
+      option.textContent = opcion;
+      selectElement.appendChild(option);
+    });
+  };
+  
