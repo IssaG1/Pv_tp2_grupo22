@@ -1,3 +1,3 @@
-let integrantes = " Isaguirre Giuliano \n Torres Misael,\n Gabriel Tarcaya,\n Flores Bustos,\n Colqui Andrea."
-console.log("Somos: \n" +integrantes+" \n Y estamos aprendiendo javascript");
+let integrantes = "Isaguirre Giuliano,\nTorres Misael,\nGabriel Tarcaya,\nFlores Bustos,\nColqui Andrea."
+console.log(`Somos:\n${integrantes}\ny estamos aprendiendo javascript`);
 

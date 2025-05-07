@@ -8,17 +8,17 @@ Invocar la función y enviar los argumentos con diferentes números para probar.
  */
 
 
-let numero1 = 40;
-let numero2 = 30;
+const numero1 = 40;
+const numero2 = 30;
 
 const calcularMayor = (numero1, numero2) => {
     if (numero1 > numero2) {
-        alert("el numero mayor es " + numero1);
+        alert(`el numero mayor es ${numero1}`);
     } else if (numero1 < numero2) {
-        alert("el numero mayor es " + numero2);
+        alert(`el numero mayor es ${numero2}`)
     } else {
-        alert("los numeros son iguales " + numero1 + " y " + numero2);
+        alert(`los numeros ${numero1} y ${numero2} son iguales`);
     }
 };
 
-calcularMayor(55, 60);
+calcularMayor(numero1,numero2);

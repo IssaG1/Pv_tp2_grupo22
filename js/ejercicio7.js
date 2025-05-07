@@ -7,4 +7,4 @@ for(let i = 1; i<nombres.length; i++){
         nombreLargo = nombres[i]
     }
 }
-console.log("el nombre mas largo es: ", nombreLargo);
+console.log(`el nombre mas largo es: ${nombreLargo}`);

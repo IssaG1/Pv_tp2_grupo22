@@ -7,4 +7,4 @@ for(let i = 0; i<edades.length; i++){
 }
 
 let promedio = suma / edades.length;
-console.log("el promedio de las edades del array es: ",promedio);
+console.log(`el promedio de las edades del array es: ${promedio}`);

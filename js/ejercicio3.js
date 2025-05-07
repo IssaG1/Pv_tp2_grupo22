@@ -2,4 +2,4 @@
 
 let radio = 7.5
 let area = Math.PI * radio * radio;
-console.log("El area del circulo es", area);
+console.log(`El area del circulo es: ${area}`);
